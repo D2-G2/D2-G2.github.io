@@ -1,1 +1,0 @@
-# D2-G2.github.io
