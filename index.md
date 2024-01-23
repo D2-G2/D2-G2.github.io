@@ -9,7 +9,7 @@ permalink: /
 ##### 송문석(Song Munseok)
 {: .fs-9 }
 
-{: .intro }
+{: .important }
 Web Engineer  
 {: .fs-4 .fw-500 }
 Interested in dev and design

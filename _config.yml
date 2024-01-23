@@ -147,7 +147,6 @@ callouts:
   highlight:
     color: yellow
   important:
-    title: Important
     color: blue
   new:
     title: New
@@ -158,8 +157,6 @@ callouts:
   warning:
     title: Warning
     color: red
-  intro:
-    color: blue
 
 # Google Analytics Tracking (optional)
 # Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")
