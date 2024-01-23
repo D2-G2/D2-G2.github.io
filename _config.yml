@@ -101,8 +101,8 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Go to GitHub":
-    - "https://github.com/D2-G2"
+  "Go to Repository":
+    - "https://github.com/D2-G2/D2-G2.github.io"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -145,7 +145,7 @@ color_scheme: dark
 callouts_level: quiet # or loud
 callouts:
   highlight:
-    color: yellow
+  olor: yellow
   important:
     color: blue
   new:
