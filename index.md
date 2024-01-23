@@ -10,7 +10,8 @@ permalink: /
 {: .fs-9 }
 
 {: .highlight }
-Web Engineer&nbsp;
+Web Engineer  
+
 Interested in dev and design
 {: .fs-6 .fw-300 }
 
