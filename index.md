@@ -6,14 +6,31 @@ description: "D2G2's blog."
 permalink: /
 ---
 
-##### 송문석(Song Munseok)
-{: .fs-9 }
 
 {: .important }
-Web Engineer  
-{: .fs-4 .fw-500 }
-Interested in dev and design
-{: .fs-2 .fw-300 }
+Web Developer
+{: .fs-5 .fw-500 }
+#### Interested in
+dev
+{: .label }
+design
+{: .label }
+#### Skills
+TypeScript
+{: .label .label-purple }
+React
+{: .label .label-purple }
+Next.js
+{: .label .label-purple }
+Node.js
+{: .label .label-purple }
+Express
+{: .label .label-purple }
+mysql
+{: .label .label-purple }
+#### studying
+functional programming
+{: .label .label-green }
 
 
 [Jekyll]: https://jekyllrb.com
