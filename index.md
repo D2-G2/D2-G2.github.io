@@ -6,15 +6,14 @@ description: "Just the Docs is a responsive Jekyll theme with built-in search th
 permalink: /
 ---
 
-# 송문석(Munseok Song)
+##### 송문석(Song Munseok)
 {: .fs-9 }
 
-{: .note }
-Web Engineer
+{: .highlight }
+Web Engineer&nbsp;
 Interested in dev and design
 {: .fs-6 .fw-300 }
 
-----
 
 [Jekyll]: https://jekyllrb.com
 [Markdown]: https://daringfireball.net/projects/markdown/
