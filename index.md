@@ -11,7 +11,6 @@ permalink: /
 
 {: .highlight }
 Web Engineer  
-
 Interested in dev and design
 {: .fs-6 .fw-300 }
 
