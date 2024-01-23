@@ -145,7 +145,7 @@ color_scheme: dark
 callouts_level: quiet # or loud
 callouts:
   highlight:
-  olor: yellow
+    color: yellow
   important:
     color: blue
   new:
