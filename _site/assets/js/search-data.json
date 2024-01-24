@@ -49,11 +49,11 @@
     "relUrl": "/docs/Dev/TypeScript/20240124/#5-의존성-관계에-따라-모듈-단위로-전환하기"
   },"7": {
     "doc": "타입스크립트로 마이그레이션하기",
-    "title": "6. 마이그레이션의 완성을 위해 nuImplicitAny 설정하기",
+    "title": "6. 마이그레이션의 완성을 위해 noImplicitAny 설정하기",
     "content": "noImplicitAny가 설정되지 않은 상태에서는 타입 선언에서 비롯되는 실제 오류가 숨어 있기 때문에 마이그레이션이 완료되었다고 할 수 없습니다. 빌드가 실패하는 것을 방지하기 위해, 처음에는 noImplicitAny를 로컬에만 설정하고 작업하는 것이 좋습니다. 타입 체커가 발생하는 오류의 개수는 noImplicitAny와 관련된 작업의 진척도를 나타내는 지표로 활용할 수 있습니다. 최종적으로 가장 강력한 설정은 “strict”: true 입니다. 타입체크의 강도를 조절하여 팀원들이 타입스크립트에 익숙해질 수 있도록 시간을 줄 수 있습니다. ",
-    "url": "/docs/Dev/TypeScript/20240124/#6-%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98%EC%9D%98-%EC%99%84%EC%84%B1%EC%9D%84-%EC%9C%84%ED%95%B4-nuimplicitany-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0",
+    "url": "/docs/Dev/TypeScript/20240124/#6-%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98%EC%9D%98-%EC%99%84%EC%84%B1%EC%9D%84-%EC%9C%84%ED%95%B4-noimplicitany-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0",
     
-    "relUrl": "/docs/Dev/TypeScript/20240124/#6-마이그레이션의-완성을-위해-nuimplicitany-설정하기"
+    "relUrl": "/docs/Dev/TypeScript/20240124/#6-마이그레이션의-완성을-위해-noimplicitany-설정하기"
   },"8": {
     "doc": "LOG",
     "title": "CHANGELOG",
@@ -76,111 +76,167 @@
     
     "relUrl": "/docs/Books/books/"
   },"11": {
+    "doc": "Course",
+    "title": "Course",
+    "content": " ",
+    "url": "/docs/Course/course/",
+    
+    "relUrl": "/docs/Course/course/"
+  },"12": {
     "doc": "CSS",
     "title": "CSS",
     "content": "CSS . ",
     "url": "/docs/Dev/CSS/css/",
     
     "relUrl": "/docs/Dev/CSS/css/"
-  },"12": {
+  },"13": {
     "doc": "Design",
     "title": "Design",
     "content": "디자인과 관련된 글을 포스팅합니다. ",
     "url": "/docs/Design/design/",
     
     "relUrl": "/docs/Design/design/"
-  },"13": {
+  },"14": {
     "doc": "Dev",
     "title": "Dev",
     "content": "개발과 관련된 글을 포스팅합니다. ",
     "url": "/docs/Dev/dev/",
     
     "relUrl": "/docs/Dev/dev/"
-  },"14": {
+  },"15": {
+    "doc": "웹 풀사이클 데브코스",
+    "title": "웹 풀사이클 데브코스",
+    "content": " ",
+    "url": "/docs/Course/devcourse/devcourse/",
+    
+    "relUrl": "/docs/Course/devcourse/devcourse/"
+  },"16": {
+    "doc": "프리온보딩 FE 챌린지 2월",
+    "title": "프리온보딩 FE 챌린지 2월",
+    "content": " ",
+    "url": "/docs/Course/fechallenge02/fechallenge02/",
+    
+    "relUrl": "/docs/Course/fechallenge02/fechallenge02/"
+  },"17": {
     "doc": "HTML",
     "title": "HTML",
     "content": "HTML . ",
     "url": "/docs/Dev/HTML/html/",
     
     "relUrl": "/docs/Dev/HTML/html/"
-  },"15": {
+  },"18": {
     "doc": "Home",
     "title": "Home",
     "content": "Frontend Developer . Interested in . dev . design . Skills . TypeScript . React . Next.js . Node.js . Express . mysql . studying . functional programming . ",
     "url": "/",
     
     "relUrl": "/"
-  },"16": {
+  },"19": {
     "doc": "JavaScript",
     "title": "JavaScript",
     "content": "JavaScript . ",
     "url": "/docs/Dev/JavaScript/javascript/",
     
     "relUrl": "/docs/Dev/JavaScript/javascript/"
-  },"17": {
+  },"20": {
     "doc": "Next.js",
     "title": "Next.js",
     "content": "Next.js . ",
     "url": "/docs/Dev/Next.js/next.js/",
     
     "relUrl": "/docs/Dev/Next.js/next.js/"
-  },"18": {
+  },"21": {
+    "doc": "사전과제",
+    "title": "1. SSR과 CSR에서의 주요 차이점은 무엇인가요?",
+    "content": "SSR . SSR은 서버 측에서 전체 페이지를 렌더링하고, 완성된 HTML을 클라이언트로 전송하는 방식입니다. SSR은 항상 최신 데이터를 기반으로 초기 화면을 그릴 수 있어, SEO에 대한 유효성을 기대할 수 있습니다. 하지만, 서버에서 어느 정도의 처리를 해야 하므로, 지연이 높아질 가능성이 있습니다. CSR . CSR은 클라이언트 측에서 JavaScript를 이용해 페이지를 동적으로 렌더링하는 방식입니다. 서버는 HTML 골격과 JavaScript 파일을 전송하고, 페이지의 렌더링은 사용자의 브라우저에서 이루어집니다. CSR은 빌드 시에 데이터를 얻지 않고, 페이지를 화면에 그려 저장합니다. 또한 브라우저에서 초기 화면�그리기를 한 뒤, 비동기로 데이터를 얻어서 추가 데이터를 표시합니다. ",
+    "url": "/docs/Course/fechallenge02/preTask/#1-ssr%EA%B3%BC-csr%EC%97%90%EC%84%9C%EC%9D%98-%EC%A3%BC%EC%9A%94-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94",
+    
+    "relUrl": "/docs/Course/fechallenge02/preTask/#1-ssr과-csr에서의-주요-차이점은-무엇인가요"
+  },"22": {
+    "doc": "사전과제",
+    "title": "2. React와 Next.js중 어떤 상황에서 각각을 선택해야 하나요?",
+    "content": "React . React는 프로젝트의 구조를 제어하고 싶거나 커스터마이징이 필요한 프로젝트일 경우 적합합니다. 또한 클라이언트 측에서 동적인 상호작용이 많은 웹 애플리케이션일 경우 적합합니다. Next.js . Next.js는 SEO 최적화가 중요하거나 초기 로딩 성능과 빠른 렌더링이 필요한 프로젝트일 경우에 적합합니다. 또한 구성이 사전에 설정되어 있어 개발 시작 시간을 단축하고 싶을 때에도 유용합니다. ",
+    "url": "/docs/Course/fechallenge02/preTask/#2-react%EC%99%80-nextjs%EC%A4%91-%EC%96%B4%EB%96%A4-%EC%83%81%ED%99%A9%EC%97%90%EC%84%9C-%EA%B0%81%EA%B0%81%EC%9D%84-%EC%84%A0%ED%83%9D%ED%95%B4%EC%95%BC-%ED%95%98%EB%82%98%EC%9A%94",
+    
+    "relUrl": "/docs/Course/fechallenge02/preTask/#2-react와-nextjs중-어떤-상황에서-각각을-선택해야-하나요"
+  },"23": {
+    "doc": "사전과제",
+    "title": "3. PWA를 구현할 때 Service Worker의 역할은 무엇인가요?",
+    "content": "방문한 웹 페이지나 앱의 자원을 캐시에 저장하여 네트워크 연결이 불안정하거나 오프라인 상태에서도 빠르게 콘텐츠를 로드할 수 있게 합니다. 또한 푸시 알림을 통해 사용자가 사용하지 않을 때도 중요한 정보나 업데이트를 알릴 수 있습니다. ",
+    "url": "/docs/Course/fechallenge02/preTask/#3-pwa%EB%A5%BC-%EA%B5%AC%ED%98%84%ED%95%A0-%EB%95%8C-service-worker%EC%9D%98-%EC%97%AD%ED%95%A0%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94",
+    
+    "relUrl": "/docs/Course/fechallenge02/preTask/#3-pwa를-구현할-때-service-worker의-역할은-무엇인가요"
+  },"24": {
+    "doc": "사전과제",
+    "title": "4. SSR, CSR, SPA, PWA, Electron등 다양한 전략이 있는데, 각 전략들은 어떤 상황에 사용되는 것이 적합하며 비즈니스에 어떤 이점을 가져다줄까요?",
+    "content": "SSR . SSR은 항상 최신 데이터를 기반으로 초기 화면을 그릴 수 있어, SEO에 대한 유효성을 기대할 수 있기 때문에 항상 최신 데이터를 표시하고자 하는 경우에 적합합니다. SSR을 통해 SEO 성능과 검색 엔진의 가시성이 향상되어 방문자 수가 증가하는 이점을 기대할 수 있습니다. CSR . CSR은 서버 부하를 줄여주고, 사용자 인터페이스의 반응성을 높여줄 수 있기 때문에 사용자와의 상호작용이 많고 동적인 웹 애플리케이션에 적합합니다. CSR을 통해 사용자 인터페이스를 부드럽고 반응성 있게 만들어 사용자 경험을 향상시킬 수 있습니다. SPA . SPA는 서버 요청이 감소하여 로딩 시간이 줄어들고, 사용자의 경험이 매끄러지기 때문에 사용자가 웹 애플리케이션과 지속적으로 상호작용해야 하는 경우에 적합합니다. SPA를 사용하면 사용자가 애플리케이션과 상호작용할 때 페이지를 새로 로드할 필요가 없어져 애플리케이션의 성능 개선을 기대할 수 있습니다. PWA . PWA는 모바일 사용자를 대상으로 네이티브 앱과 유사한 사용자 경험을 제공하고자 할 때 적합합니다. 설치 없이 앱과 같은 경험을 제공하여 사용자 참여도를 높일 수 있으며, 오프라인 지원을 통해 접근성을 향상시킬 수 있습니다. 또한 네이티브 앱에 비해 낮은 개발 및 유지보수 비용을 기대할 수 있습니다. Electron . Electron은 웹 기술을 사용하여 데스크톱 애플리케이션을 개발하고자 할 때 혹은 크로스 플랫폼 지원이 필요한 경우에 적합합니다. Electron 활용을 통해 개발 비용과 시간을 절약할 수 있고 웹 개발자가 쉽게 데스크톱 애플리케이션을 개발할 수 있게 됩니다. ",
+    "url": "/docs/Course/fechallenge02/preTask/#4-ssr-csr-spa-pwa-electron%EB%93%B1-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%A0%84%EB%9E%B5%EC%9D%B4-%EC%9E%88%EB%8A%94%EB%8D%B0-%EA%B0%81-%EC%A0%84%EB%9E%B5%EB%93%A4%EC%9D%80-%EC%96%B4%EB%96%A4-%EC%83%81%ED%99%A9%EC%97%90-%EC%82%AC%EC%9A%A9%EB%90%98%EB%8A%94-%EA%B2%83%EC%9D%B4-%EC%A0%81%ED%95%A9%ED%95%98%EB%A9%B0-%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%97%90-%EC%96%B4%EB%96%A4-%EC%9D%B4%EC%A0%90%EC%9D%84-%EA%B0%80%EC%A0%B8%EB%8B%A4%EC%A4%84%EA%B9%8C%EC%9A%94",
+    
+    "relUrl": "/docs/Course/fechallenge02/preTask/#4-ssr-csr-spa-pwa-electron등-다양한-전략이-있는데-각-전략들은-어떤-상황에-사용되는-것이-적합하며-비즈니스에-어떤-이점을-가져다줄까요"
+  },"25": {
+    "doc": "사전과제",
+    "title": "사전과제",
+    "content": " ",
+    "url": "/docs/Course/fechallenge02/preTask/",
+    
+    "relUrl": "/docs/Course/fechallenge02/preTask/"
+  },"26": {
     "doc": "React",
     "title": "React",
     "content": "React . ",
     "url": "/docs/Dev/React.js/react.js/",
     
     "relUrl": "/docs/Dev/React.js/react.js/"
-  },"19": {
-    "doc": "test",
-    "title": "test",
-    "content": "test . ",
-    "url": "/docs/Dev/CSS/test/",
-    
-    "relUrl": "/docs/Dev/CSS/test/"
-  },"20": {
-    "doc": "test",
-    "title": "test",
-    "content": "test . ",
-    "url": "/docs/Dev/HTML/test/",
-    
-    "relUrl": "/docs/Dev/HTML/test/"
-  },"21": {
-    "doc": "test",
-    "title": "test",
-    "content": "test . ",
-    "url": "/docs/Dev/TypeScript/test/",
-    
-    "relUrl": "/docs/Dev/TypeScript/test/"
-  },"22": {
-    "doc": "test",
-    "title": "test",
-    "content": "test . ",
-    "url": "/docs/Dev/Next.js/test/",
-    
-    "relUrl": "/docs/Dev/Next.js/test/"
-  },"23": {
+  },"27": {
     "doc": "test",
     "title": "test",
     "content": "test . ",
     "url": "/docs/Dev/JavaScript/test/",
     
     "relUrl": "/docs/Dev/JavaScript/test/"
-  },"24": {
+  },"28": {
+    "doc": "test",
+    "title": "test",
+    "content": "test . ",
+    "url": "/docs/Dev/Next.js/test/",
+    
+    "relUrl": "/docs/Dev/Next.js/test/"
+  },"29": {
+    "doc": "test",
+    "title": "test",
+    "content": "test . ",
+    "url": "/docs/Dev/HTML/test/",
+    
+    "relUrl": "/docs/Dev/HTML/test/"
+  },"30": {
     "doc": "test",
     "title": "test",
     "content": "test . ",
     "url": "/docs/Dev/React.js/test/",
     
     "relUrl": "/docs/Dev/React.js/test/"
-  },"25": {
+  },"31": {
+    "doc": "test",
+    "title": "test",
+    "content": "test . ",
+    "url": "/docs/Dev/CSS/test/",
+    
+    "relUrl": "/docs/Dev/CSS/test/"
+  },"32": {
+    "doc": "test",
+    "title": "test",
+    "content": "test . ",
+    "url": "/docs/Dev/TypeScript/test/",
+    
+    "relUrl": "/docs/Dev/TypeScript/test/"
+  },"33": {
     "doc": "test",
     "title": "test",
     "content": "test . ",
     "url": "/docs/Dev/Troubleshootings/test/",
     
     "relUrl": "/docs/Dev/Troubleshootings/test/"
-  },"26": {
+  },"34": {
     "doc": "TypeScript",
     "title": "TypeScript",
     "content": "TypeScript . ",
