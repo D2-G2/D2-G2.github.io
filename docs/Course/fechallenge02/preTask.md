@@ -8,6 +8,10 @@ parent: 프리온보딩 FE 챌린지 2월
 grand_parent: Course
 ---
 
+# 프리온보딩 FE 챌린지 2월 사전과제  
+#### 2024. 1.24.
+{: .text-right}
+
 ## 1. SSR과 CSR에서의 주요 차이점은 무엇인가요?
 
 #### SSR
