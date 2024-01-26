@@ -8,7 +8,7 @@
   },"1": {
     "doc": "타입스크립트로 마이그레이션하기",
     "title": "타입스크립트로 마이그레이션하기",
-    "content": "2024. 1.24. typescript . migration . INDEX . 1. 마이그레이션을 하기에 앞서 . 2. 모던 자바스크립트로 작성하기 . 3. 타입스크립트 도입 전에 @ts-check로 시험해보기 . 4. allowJs로 타입스크립트와 자바스크립트 같이 사용하기 . 5. 의존성 관계에 따라 모듈 단위로 전환하기 . 6. 마이그레이션의 완성을 위해 nuImplicitAny 설정하기 . ",
+    "content": "2024. 1.24. typescript . migration . INDEX . | 1. 마이그레이션을 하기에 앞서 | 2. 모던 자바스크립트로 작성하기 | 3. 타입스크립트 도입 전에 @ts-check로 시험해보기 | 4. allowJs로 타입스크립트와 자바스크립트 같이 사용하기 | 5. 의존성 관계에 따라 모듈 단위로 전환하기 | 6. 마이그레이션의 완성을 위해 noImplicitAny 설정하기 | . ",
     "url": "/docs/Dev/TypeScript/20240124/",
     
     "relUrl": "/docs/Dev/TypeScript/20240124/"
@@ -148,7 +148,7 @@
   },"21": {
     "doc": "사전과제",
     "title": "프리온보딩 FE 챌린지 2월 사전과제",
-    "content": "2024. 1.24. ",
+    "content": "2024. 1.24. Index . | 1. SSR과 CSR에서의 주요 차이점은 무엇인가요? | 2. React와 Next.js중 어떤 상황에서 각각을 선택해야 하나요? | 3. PWA를 구현할 때 Service Worker의 역할은 무엇인가요? | 4. SSR, CSR, SPA, PWA, Electron등 다양한 전략이 있는데, 각 전략들은 어떤 상황에 사용되는 것이 적합하며 비즈니스에 어떤 이점을 가져다줄까요? | . ",
     "url": "/docs/Course/fechallenge02/preTask/#%ED%94%84%EB%A6%AC%EC%98%A8%EB%B3%B4%EB%94%A9-fe-%EC%B1%8C%EB%A6%B0%EC%A7%80-2%EC%9B%94-%EC%82%AC%EC%A0%84%EA%B3%BC%EC%A0%9C",
     
     "relUrl": "/docs/Course/fechallenge02/preTask/#프리온보딩-fe-챌린지-2월-사전과제"
