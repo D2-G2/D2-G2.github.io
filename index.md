@@ -9,7 +9,7 @@ permalink: /
 <div style="display: flex; align-items: center;">
     <img src="./favicon.ico" style="width: 20%; height: 20%;" />
     <p style="margin: 0 0 0 20px; font-size: 1.2rem; font-weight: bold;">
-      송문석(Song Munseok)
+      송문석(D2G2)
     </p>
 </div>
 
