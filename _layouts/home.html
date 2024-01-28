@@ -4,7 +4,7 @@ layout: default
 
 {{ content }}
 <div class="latest-posts">
-  <h4>LATEST</h2>
+  <h4>LATEST</h4>
   {% assign post_count = 0 %}
   {% assign sorted_posts = site.docs | where: "layout", "post" | sort: "date" | reverse %}
   {% for post in sorted_posts %}
