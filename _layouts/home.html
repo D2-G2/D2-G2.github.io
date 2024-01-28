@@ -3,3 +3,18 @@ layout: default
 ---
 
 {{ content }}
+<div class="latest-posts">
+  <h4>LATEST</h2>
+  {% assign post_count = 0 %}
+  {% assign sorted_posts = site.docs | where: "layout", "post" | sort: "date" | reverse %}
+  {% for post in sorted_posts %}
+    {% if post_count < 20 %}
+      <div class="post-preview">
+        <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+        <!-- <p>{{ post.description | remove: '<p>' | remove: '</p>' }}</p> -->
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      </div>
+      {% assign post_count = post_count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+</div>

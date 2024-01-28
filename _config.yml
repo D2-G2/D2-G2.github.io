@@ -183,3 +183,8 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
+
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/

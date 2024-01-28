@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Home
 nav_order: 1
 description: "D2G2's blog."
@@ -41,3 +41,5 @@ mysql
 #### studying
 functional programming
 {: .label .label-green }
+
+---
