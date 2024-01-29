@@ -6,7 +6,7 @@ layout: default
 <div class="latest-posts">
   <h4>LATEST</h4>
   {% assign post_count = 0 %}
-  {% assign sorted_posts = site.docs | where: "layout", "post" | sort: "date" | reverse %}
+  {% assign sorted_posts = site.posts | where: "layout", "post" | sort: "date" | reverse %}
   {% for post in sorted_posts %}
     {% if post_count < 20 %}
       <div class="post-preview">
