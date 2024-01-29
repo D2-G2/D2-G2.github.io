@@ -209,47 +209,47 @@
     
     "relUrl": "/docs/Dev/Troubleshootings/"
   },"30": {
-    "doc": "React",
-    "title": "React",
-    "content": "React . ",
-    "url": "/docs/Dev/React.js/",
-    
-    "relUrl": "/docs/Dev/React.js/"
-  },"31": {
     "doc": "Functional Programming",
     "title": "Functional Programming",
     "content": "함수형 프로그래밍을 공부한 내용을 기록합니다. ",
     "url": "/docs/Dev/FunctionalProgramming/",
     
     "relUrl": "/docs/Dev/FunctionalProgramming/"
-  },"32": {
+  },"31": {
     "doc": "TypeScript",
     "title": "TypeScript",
     "content": "TypeScript . ",
     "url": "/docs/Dev/TypeScript/",
     
     "relUrl": "/docs/Dev/TypeScript/"
-  },"33": {
+  },"32": {
     "doc": "HTML",
     "title": "HTML",
     "content": "HTML . ",
     "url": "/docs/Dev/HTML/",
     
     "relUrl": "/docs/Dev/HTML/"
-  },"34": {
+  },"33": {
     "doc": "Next.js",
     "title": "Next.js",
     "content": "Next.js . ",
     "url": "/docs/Dev/Next.js/",
     
     "relUrl": "/docs/Dev/Next.js/"
-  },"35": {
+  },"34": {
     "doc": "JavaScript",
     "title": "JavaScript",
     "content": "JavaScript . ",
     "url": "/docs/Dev/JavaScript/",
     
     "relUrl": "/docs/Dev/JavaScript/"
+  },"35": {
+    "doc": "React",
+    "title": "React",
+    "content": "React . ",
+    "url": "/docs/Dev/React/",
+    
+    "relUrl": "/docs/Dev/React/"
   },"36": {
     "doc": "Dev",
     "title": "Dev",

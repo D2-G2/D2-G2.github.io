@@ -6,6 +6,13 @@ description: "D2G2's blog."
 permalink: /
 ---
 
+<style>
+  .label > a {
+    text-decoration : none;
+    color:white;
+  }
+</style>
+
 <div style="display: flex; align-items: center;">
     <img src="./favicon.ico" style="width: 20%; height: 20%;" />
     <p style="margin: 0 0 0 20px; font-size: 1.2rem; font-weight: bold;">
@@ -21,16 +28,16 @@ Frontend Developer
 
 
 #### Interested in
-dev
+<a href="/docs/Dev/">dev</a>
 {: .label }
-design
+<a href="/docs/Design/">design</a>
 {: .label }
 #### Skills
-TypeScript
+<a href="/docs/Dev/TypeScript/">TypeScript</a>
 {: .label .label-purple }
-React
+<a href="/docs/Dev/React/">React</a>
 {: .label .label-purple }
-Next.js
+<a href="/docs/Dev/Next.js/">Next.js</a>
 {: .label .label-purple }
 Node.js
 {: .label .label-purple }
@@ -39,7 +46,7 @@ Express
 mysql
 {: .label .label-purple }
 #### studying
-functional programming
+<a href="/docs/Dev/FunctionalProgramming/">functional programming</a>
 {: .label .label-green }
 
 ---
